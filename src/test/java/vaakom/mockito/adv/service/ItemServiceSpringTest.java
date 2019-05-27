@@ -18,7 +18,7 @@ import static org.junit.Assert.assertEquals;
 import static org.mockito.Mockito.when;
 
 @RunWith(SpringRunner.class)
-@ContextConfiguration(classes = ExcludeSpringBootConfig.class)
+@ContextConfiguration(classes = ItemServiceConfig.class)
 public class ItemServiceSpringTest {
 
     @Autowired
